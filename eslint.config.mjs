@@ -4,6 +4,9 @@ import globals from 'globals';
 // import { defineConfig } from "eslint/config";
 
 export default [
+  {
+    ignores: ["coverage/**", "node_modules/**", "dist/**"]
+  },
   js.configs.recommended,
   {
     files: ['**/*.{js,mjs,cjs}'],

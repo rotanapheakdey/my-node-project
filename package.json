@@ -10,7 +10,6 @@
     "lint:fix": "eslint . --fix",
     "format": "prettier --write .",
     "build": "npm run lint && npm run test"
-
   },
   "keywords": [],
   "author": "PHEAKDEY Rotana",
@@ -19,6 +18,7 @@
   "devDependencies": {
     "@eslint/js": "^10.0.1",
     "eslint": "^10.0.3",
+    "eslint-plugin-jest": "^29.15.0",
     "globals": "^17.4.0",
     "jest": "^30.3.0",
     "prettier": "^3.8.1"
